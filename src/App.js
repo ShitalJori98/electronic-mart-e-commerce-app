@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import { Switch ,Route } from 'react-router-dom';
 import ProductList from './components/ProductList';
-import Cart from './components/Cart';
+import Cart from './components/cart/Cart';
 import Banner from './components/Banner';
 
 function App() {
