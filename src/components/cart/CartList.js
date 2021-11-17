@@ -12,7 +12,7 @@ export default function CartList({value}) {
           
           {cart.map(item =>{
               return <CartItem key={item.id} 
-              item={item} value={value}/>; // we pass item and value to cartItem comp
+              item={item} value={value}/>; 
           })}
          
      </div>
